@@ -1,5 +1,5 @@
 import { useEffect, React } from "react";
-import { useDispatch, useSelector } from "react-redux/es/exports";
+import { useDispatch, useSelector } from "react-redux";
 import { fetchCoins } from "../Redux/Coins/Coins";
 import { Link } from "react-router-dom";
 import Coin from "./Coin";
@@ -14,7 +14,7 @@ const Coins = () => {
     if (coins.length === 0) {
       dispatch(fetchCoins());
     }
-  }, []);
+  }, [coins.length]);
 
   return (
     <>
@@ -22,6 +22,8 @@ const Coins = () => {
         <div>
           <img className="mainImage" src={mainImage} />
         </div>
+        <h1 className="neon">Coins Overview</h1>
+        <h1 className="neon">Coins Overview</h1>
         <h1 className="neon">Coins Overview</h1>
         <div className="coinsContainer">
           {coins.map((coin) => {

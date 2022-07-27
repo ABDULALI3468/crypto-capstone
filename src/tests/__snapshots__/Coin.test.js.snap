@@ -1,0 +1,141 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Popular component testing 1`] = `
+<div>
+  <div
+    className="coin-container"
+  >
+    <div
+      className="content"
+    >
+      <h1 />
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="rank"
+      >
+        <span
+          className="rank-btn"
+        >
+          Rank # 
+        </span>
+      </div>
+      <div
+        className="info"
+      >
+        <div
+          className="coin-heading"
+        >
+          <p />
+        </div>
+        <div
+          className="coin-price"
+        />
+      </div>
+    </div>
+    <div
+      className="content"
+    >
+      <table>
+        <thead>
+          <tr>
+            <th>
+              1h
+            </th>
+            <th>
+              24h
+            </th>
+            <th>
+              7d
+            </th>
+            <th>
+              14d
+            </th>
+            <th>
+              30d
+            </th>
+            <th>
+              1yr
+            </th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td />
+            <td />
+            <td />
+            <td />
+            <td />
+            <td />
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="stats"
+      >
+        <div
+          className="left"
+        >
+          <div
+            className="row"
+          >
+            <h4>
+              24 Hour Low
+            </h4>
+          </div>
+          <div
+            className="row"
+          >
+            <h4>
+              24 Hour High
+            </h4>
+             
+          </div>
+        </div>
+        <div
+          className="right"
+        >
+          <div
+            className="row"
+          >
+            <h4>
+              Market Cap
+            </h4>
+          </div>
+          <div
+            className="row"
+          >
+            <h4>
+              Circulating Supply
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="content"
+    >
+      <div
+        className="about"
+      >
+        <h3>
+          About
+        </h3>
+        <p
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "",
+            }
+          }
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

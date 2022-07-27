@@ -14,7 +14,9 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/" element={<Coins />}></Route>
-          <Route path="/coin/:id" element={<Coin />} />
+          <Route path="/coin" element={<Coin />}>
+            <Route path=":coinId" element={<Coin />} />
+          </Route>
         </Routes>
       </>
     </Provider>

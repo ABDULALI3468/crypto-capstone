@@ -9,6 +9,7 @@ const store = configureStore(
   {
     reducer: {
       coins,
+      coin,
     },
   },
   applyMiddleware(thunk)

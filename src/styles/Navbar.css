@@ -12,7 +12,6 @@ body {
   justify-content: center;
   align-items: center;
   overflow-x: hidden;
-  color: #f4f4f4;
 
   max-width: 320px;
   overflow-x: hidden;
@@ -50,7 +49,7 @@ html {
 }
 
 .backIcon {
-  color: black;
+  color: grey;
   font-size: 2.5rem;
   margin-right: 0.5rem;
 }

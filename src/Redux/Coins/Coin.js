@@ -8,11 +8,11 @@ export const coinFetchAction = (coin) => ({
 
 
 // const params = useParams();
-export const fetchCoin = () => {
+export const fetchCoin = (url) => {
   // Thunk Function
   return async (dispatch, getState) => {
     // Fetching results from an API : asynchronous action
-    const response = await fetch(`https://api.coingecko.com/api/v3/coins`);
+    const response = await fetch(url);
     const data = await response.json();
     console.log(data);
 
