@@ -1,11 +1,24 @@
-import React from 'react';
+import React from "react";
+import Navbar from "./components/Navbar";
+import Coins from "./components/Coins";
+import Coin from "./components/Coin";
+import store from "./Redux/ConfigureStore";
+import { Provider } from "react-redux";
+import { Routes, Route } from "react-router-dom";
+import "./styles/index.css";
 
 const App = () => {
   return (
-    <div>
-      <h1>BISMILLAH</h1>
-    </div>
+    <Provider store={store}>
+      <>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Coins />}></Route>
+          <Route path="/coin/:id" element={<Coin />} />
+        </Routes>
+      </>
+    </Provider>
   );
-}
+};
 
 export default App;
