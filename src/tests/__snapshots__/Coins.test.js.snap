@@ -4,22 +4,14 @@ exports[`Popular component testing 1`] = `
 <div
   className="container"
 >
-  <div>
+  <div
+    className="imageContainer"
+  >
     <img
       className="mainImage"
-      src="crypto-main.png"
+      src="mainimage.gif"
     />
   </div>
-  <h1
-    className="neon"
-  >
-    Coins Overview
-  </h1>
-  <h1
-    className="neon"
-  >
-    Coins Overview
-  </h1>
   <h1
     className="neon"
   >

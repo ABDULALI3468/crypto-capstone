@@ -27,9 +27,7 @@ exports[`Popular component testing 1`] = `
       >
         <div
           className="coin-heading"
-        >
-          <p />
-        </div>
+        />
         <div
           className="coin-price"
         />
