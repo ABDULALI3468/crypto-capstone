@@ -9,6 +9,8 @@
 - React
 - Jest
 - Redux
+- JavaScript
+- Html CSS
 
 ## Live Demo 
 
@@ -16,7 +18,7 @@
 
 ## Live Presentation 
 
-[Live presentation Link]()
+[Live presentation Link](https://drive.google.com/file/d/1n7OTVXNO5sQSLK_CWnkOZ9Cop3LcOPcg/view?usp=sharing)
 
 
 ## Getting Started
