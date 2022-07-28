@@ -14,7 +14,7 @@
 
 ## Live Demo 
 
-[Live Demo Link](tokenworld.netlify.app)
+[Live Demo Link](https://tokenworld.netlify.app)
 
 ## Live Presentation 
 
