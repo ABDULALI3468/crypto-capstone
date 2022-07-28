@@ -4,9 +4,14 @@
   align-items: center;
 }
 
+.imageContainer {
+  display: flex;
+  justify-content: center;
+}
+
 .mainImage {
   margin: 1rem 0 0 0;
-  max-width: 380px;
+  width: 95%;
   border-radius: 12px;
   opacity: 0.7;
 }
@@ -20,29 +25,22 @@
 
 .link {
   text-decoration: none;
+  width: 50%;
 }
 
 .coinsContainer {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
   flex-wrap: wrap;
   cursor: pointer;
-  border-radius: 1rem;
 }
 
 .coinContainer {
   display: flex;
-  background-color: var(--background);
+  background: linear-gradient(90deg, rgba(240, 248, 255, 1) 0%, rgba(233, 245, 255, 1) 35%, rgba(213, 235, 255, 1) 100%);
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border: 1px solid grey;
-  border-radius: 20px;
-  width: 171px;
   height: 150px;
-  margin-bottom: 1rem;
-  /* box-shadow: -5px -5px 10px grey; */
 }
 
 .coinContainer:hover {
@@ -71,8 +69,8 @@
   height: 45px;
   margin-right: 1rem;
   position: absolute;
-  top: -23px;
-  left: -2px;
+  top: -9px;
+  left: 7px;
 }
 
 .currentPrice {
@@ -80,4 +78,10 @@
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   color: #aba8a9;
+}
+
+@media screen and (min-width: 700px) {
+  .neon {
+    margin: 2rem 0;
+  }
 }
