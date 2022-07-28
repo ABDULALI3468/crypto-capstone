@@ -1,51 +1,39 @@
 :root {
-  --pink: #fa4f91;
-  --lightpink: #da759b;
-  --darkpink: #d8dfee;
-  --yellow: #cbf83e;
   --background: #f0f8ff;
 }
 
 body {
-  background-color: var(--darkpink);
   display: flex;
   justify-content: center;
-  align-items: center;
   overflow-x: hidden;
-
-  max-width: 320px;
   overflow-x: hidden;
+  background: linear-gradient(90deg, rgba(240, 248, 255, 1) 0%, rgba(233, 245, 255, 1) 35%, rgba(213, 235, 255, 1) 100%);
 }
 
 html {
   font-size: 16px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
-
 
 #root {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  max-width: 380px;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 .Nav-container {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  max-height: 2.5rem;
+  margin-top: 1rem;
   font-family: Arial, Helvetica, sans-serif;
   color: grey;
-  margin: 1rem;
   width: 100%;
 }
 
 .navHeading {
-  font-size: 2.5rem;
+  margin: 0;
 }
 
 .backIcon {
@@ -56,5 +44,30 @@ html {
 
 .searchIcon {
   font-size: 2.8rem;
-  margin: 0.5rem 0 0 0.5rem;
+}
+
+@media screen and (min-width: 700px) {
+  .Nav-container {
+    justify-content: center;
+  }
+
+  .navHeading {
+    margin: 0 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .backIcon {
+    color: grey;
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+
+    color: grey;
+  }
+
+  .searchIcon {
+    color: grey;
+    font-size: 2.8rem;
+  }
 }

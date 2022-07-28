@@ -9,7 +9,7 @@ import Coins from "./Coins";
 const Navbar = () => {
   return (
     <div className="Nav-container">
-      <Link className="link" style={{ color: "#18191b" }} to="/" element={<Coins />}>
+      <Link className="link" style={{ color: "#18191b", width: 'auto' }} to="/" element={<Coins />}>
         <BsArrowDownLeftSquareFill className="backIcon" />
       </Link>
 
