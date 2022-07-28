@@ -3,8 +3,8 @@ import Navbar from "./components/Navbar";
 import Coins from "./components/Coins";
 import Coin from "./components/Coin";
 import store from "./Redux/ConfigureStore";
-import { Provider } from "react-redux";
 import { Routes, Route } from "react-router-dom";
+import { Provider } from "react-redux";
 import "./styles/index.css";
 
 const App = () => {
