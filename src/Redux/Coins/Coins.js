@@ -1,17 +1,14 @@
-import { createAsyncThunk } from "@reduxjs/toolkit";
-const FETCH_COINS = "FETCH_COINS";
+const FETCH_COINS = 'FETCH_COINS';
 
 export const coinsFetchAction = (coins) => ({
   type: FETCH_COINS,
   coins,
 });
 
-export const fetchCoins = () => {
-  return async (dispatch, getState) => {
-    const response = await fetch("https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false");
-    const data = await response.json();
-    dispatch(coinsFetchAction(data));
-  };
+export const fetchCoins = () => async (dispatch) => {
+  const response = await fetch('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=50&page=1&sparkline=false');
+  const data = await response.json();
+  dispatch(coinsFetchAction(data));
 };
 
 const coins = (state = [], action) => {

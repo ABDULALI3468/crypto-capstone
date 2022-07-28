@@ -4,6 +4,7 @@
   flex-direction: column;
   align-items: center;
 }
+
 .coin-container .content {
   width: 75%;
   margin: 1rem 0;
@@ -11,18 +12,18 @@
   display: flex;
   flex-direction: column;
   background-color: #f0f8ff;
-  box-shadow: 0px 0px 12px #18191b;
+  box-shadow: 0 0 12px #18191b;
   border-radius: 8px;
   overflow-x: hidden;
 }
 
 .rank {
-  margin: 0.5 0;
+  margin: 0.5rem 0;
 }
 
 .rank-btn {
   border: 1px solid lightgrey;
-  box-shadow: 0px 0px 8px lightgrey;
+  box-shadow: 0 0 8px lightgrey;
   background-color: lightgrey;
   border-radius: 8px;
   padding: 0.2rem;
@@ -55,6 +56,12 @@ th {
   text-align: center;
 }
 
+.about p {
+  margin: 1.5rem 0;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
 .stats {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -80,12 +87,6 @@ th {
   line-height: 1.5rem;
 }
 
-.about p {
-  margin: 1.5rem 0;
-  letter-spacing: 1px;
-  line-height: 1.5rem;
-}
-
 @media screen and (max-width: 700px) {
   .coin-container {
     display: flex;
@@ -96,7 +97,7 @@ th {
   .coin-container .content {
     max-width: 100%;
     width: 95%;
-    box-shadow: 0px 0px 12px #18191b;
+    box-shadow: 0 0 12px #18191b;
     padding: 0 0.5rem;
   }
 

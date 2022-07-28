@@ -6,7 +6,6 @@ body {
   display: flex;
   justify-content: center;
   overflow-x: hidden;
-  overflow-x: hidden;
   background: linear-gradient(90deg, rgba(240, 248, 255, 1) 0%, rgba(233, 245, 255, 1) 35%, rgba(213, 235, 255, 1) 100%);
 }
 
@@ -62,8 +61,6 @@ html {
     color: grey;
     font-size: 2.5rem;
     margin-right: 0.5rem;
-
-    color: grey;
   }
 
   .searchIcon {

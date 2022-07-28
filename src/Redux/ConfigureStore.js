@@ -1,8 +1,8 @@
-/* eslint-disable no-unused-vars*/
-import { configureStore, applyMiddleware } from "@reduxjs/toolkit";
-import thunk from "redux-thunk";
-import coins from "./Coins/Coins";
-import coin from "./Coins/Coin";
+/* eslint-disable no-unused-vars */
+import { configureStore, applyMiddleware } from '@reduxjs/toolkit';
+import thunk from 'redux-thunk';
+import coins from './Coins/Coins';
+import coin from './Coins/Coin';
 
 const store = configureStore(
   {
@@ -11,7 +11,7 @@ const store = configureStore(
       coin,
     },
   },
-  applyMiddleware(thunk)
+  applyMiddleware(thunk),
 );
 
 export default store;

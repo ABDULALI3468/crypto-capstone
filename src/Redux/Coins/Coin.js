@@ -1,16 +1,14 @@
-const FETCH_COIN = "FETCH_COIN";
+const FETCH_COIN = 'FETCH_COIN';
 
 export const coinFetchAction = (coin) => ({
   type: FETCH_COIN,
   coin,
 });
 
-export const fetchCoin = (url) => {
-  return async (dispatch, getState) => {
-    const response = await fetch(url);
-    const data = await response.json();
-    dispatch(coinFetchAction(data));
-  };
+export const fetchCoin = (url) => async (dispatch) => {
+  const response = await fetch(url);
+  const data = await response.json();
+  dispatch(coinFetchAction(data));
 };
 
 const coin = (state = [], action) => {
