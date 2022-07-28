@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# kim market cap
+# Crypto World.
 
 > A website that provides accurate data about various crypto currencies. It will show you everything you need to know. This includes marketcap, top and low sellings, its history and gave you some core advices you should know before taking any step.
 
@@ -49,7 +49,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🤝 Acknowledge
 
- Nelson Sakwa on Behance.
+ [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio)
 
 ## Show your support
 
