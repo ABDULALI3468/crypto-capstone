@@ -21,8 +21,8 @@
 
 ## Getting Started
 
-    git clone https://github.com/Kimutai01/cryptocurrencies.git
-    cd cryptocurrencies
+    git clone https://github.com/ABDULALI3468/crypto-capstone.git
+    cd crypto-capstone
     npm install
     npm start
     
