@@ -1,0 +1,70 @@
+:root {
+  --background: #f0f8ff;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  background: linear-gradient(90deg, rgba(240, 248, 255, 1) 0%, rgba(233, 245, 255, 1) 35%, rgba(213, 235, 255, 1) 100%);
+}
+
+html {
+  font-size: 16px;
+}
+
+#root {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.Nav-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: grey;
+  width: 100%;
+}
+
+.navHeading {
+  margin: 0;
+}
+
+.backIcon {
+  color: grey;
+  font-size: 2.5rem;
+  margin-right: 0.5rem;
+}
+
+.searchIcon {
+  font-size: 2.8rem;
+}
+
+@media screen and (min-width: 700px) {
+  .Nav-container {
+    justify-content: center;
+  }
+
+  .navHeading {
+    margin: 0 2rem;
+    text-align: center;
+    color: white;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  }
+
+  .backIcon {
+    color: grey;
+    font-size: 2.5rem;
+    margin-right: 0.5rem;
+  }
+
+  .searchIcon {
+    color: grey;
+    font-size: 2.8rem;
+  }
+}

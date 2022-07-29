@@ -1,0 +1,120 @@
+.coin-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.coin-container .content {
+  width: 75%;
+  margin: 1rem 0;
+  padding: 0.7rem 1rem;
+  display: flex;
+  flex-direction: column;
+  background-color: #f0f8ff;
+  box-shadow: 0 0 12px #18191b;
+  border-radius: 8px;
+  overflow-x: hidden;
+}
+
+.rank {
+  margin: 0.5rem 0;
+}
+
+.rank-btn {
+  border: 1px solid lightgrey;
+  box-shadow: 0 0 8px lightgrey;
+  background-color: lightgrey;
+  border-radius: 8px;
+  padding: 0.2rem;
+}
+
+.info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.info .coin-heading {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+}
+
+.info .coin-price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+table {
+  margin: 0.5rem 0;
+}
+
+td,
+th {
+  padding: 8px;
+  text-align: center;
+}
+
+.about p {
+  margin: 1.5rem 0;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+}
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2rem;
+  width: 100%;
+}
+
+.stats .row {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #808080;
+  margin: 0.6rem 0;
+  padding-bottom: 0.5rem;
+}
+
+.stats .row p:first-child {
+  color: #d3d3d3;
+}
+
+.about h3 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+  line-height: 1.5rem;
+}
+
+@media screen and (max-width: 700px) {
+  .coin-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .coin-container .content {
+    max-width: 100%;
+    width: 95%;
+    box-shadow: 0 0 12px #18191b;
+    padding: 0 0.5rem;
+  }
+
+  .stats {
+    grid-template-columns: 1fr;
+  }
+
+  td,
+  th {
+    padding: 3px;
+  }
+
+  .rank {
+    margin: 0.5rem;
+  }
+
+  .rank-btn {
+    margin: 0.5rem 0;
+  }
+}

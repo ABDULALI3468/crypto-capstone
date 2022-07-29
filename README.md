@@ -1,31 +1,40 @@
-# crypto-capstone
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-This is a REACT based webiste which shows you the top 50 CRYPTO CURRENCIES DETAILS.
+# Crypto World.
+
+> A website that provides accurate data about various crypto currencies. It will show you everything you need to know. This includes marketcap, top and low sellings, its history and gave you some core advices you should know before taking any step.
 
 ## Built With
 
-- HTML
-- CSS
 - React
+- Jest
 - Redux
 - JavaScript
+- Html CSS
 
-## Live demo link (Will be available soon)
+## Live Demo 
+
+[Live Demo Link](https://tokenworld.netlify.app)
+
+## Live Presentation 
+
+[Live presentation Link](https://drive.google.com/file/d/1n7OTVXNO5sQSLK_CWnkOZ9Cop3LcOPcg/view?usp=sharing)
+
 
 ## Getting Started
 
-To get a local copy up and running:
+    git clone https://github.com/ABDULALI3468/crypto-capstone.git
+    cd crypto-capstone
+    npm install
+    npm start
+    
+To get a local copy up and running follow these simple example steps.
 
-1. Clone this repository or download the Zip folder:
+### Prerequisites
+You need to install node js
 
-**``git clone https://github.com/ABDULALI3468/crypto-capstone.git``**
 
-2. use the following commands
-
-**``npm install ``**, 
-**``npm start``**
-
-## Author
+## Authors
 
 👤 **ABDUL ALI**
 
@@ -33,16 +42,17 @@ To get a local copy up and running:
 > * This is My **Linkedin**: [![Linkedin Badge](https://img.shields.io/badge/-ABDUL%20ALI-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/abdul-ali-5400bb216/)](https://www.linkedin.com/in/abdul-ali-5400bb216/)&nbsp;
 > * This is My **Twitter**: [![Twitter Badge](https://img.shields.io/badge/-@mrabdul_ali_-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/mrabdul_ali)](https://twitter.com/mrabdul_ali)&nbsp;
 
-## Credits
-
-Template from this [MICROVERSE](https://www.microverse.org/)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ABDULALI3468/crypto-capstone.git/issues).
+Feel free to check the [issues page](../../issues/).
+
+## 🤝 Acknowledge
+
+ [Nelson Sakwa on Behance.](https://www.behance.net/sakwadesignstudio)
 
 ## Show your support
 
-Give a ⭐️ if you like this project and how we manage to build it!
+Give a ⭐️ if you like this project!
