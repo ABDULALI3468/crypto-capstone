@@ -11,10 +11,6 @@ Maybe you can mention me or this repo in the acknowledgements too
   <img src="./src/images/README-logo.png" alt="logo" width="200" height="auto" />
   <h1>README for our Project</h1>
 
-  <p>
-    An awesome README template for your projects!
-  </p>
-
 <!-- Badges -->
 <p>
   <a href="https://github.com/ABDULALI3468/crypto-capstone/graphs/contributors">
@@ -33,7 +29,7 @@ Maybe you can mention me or this repo in the acknowledgements too
     <img src="https://img.shields.io/github/issues/ABDULALI3468/crypto-capstone" alt="open issues" />
   </a>
   <a href="https://github.com/ABDULALI3468/crypto-capstone/blob/master/LICENSE">
-    <img src="https://img.shields.io/github/license/Louis3797/awesome-readme-template.svg" alt="license" />
+    <img src="https://img.shields.io/badge/license-MIT-green" alt="license" />
   </a>
 </p>
 
@@ -105,7 +101,6 @@ Maybe you can mention me or this repo in the acknowledgements too
   </ul>
 </details>
 
-
 <!-- Features -->
 
 ### :dart: Features
@@ -113,7 +108,6 @@ Maybe you can mention me or this repo in the acknowledgements too
 - Provides latest, accurate data about various crypto currencies
 - Shows marketcap, top and low sellings, history of crypto currencies
 - Helps giving core advices you should know before taking any step.
-
 
 <!-- Getting Started -->
 
@@ -202,7 +196,6 @@ See [LICENSE](./LICENSE) for more information.
 > - This is My **GitHub**: ![GitHub followers](https://img.shields.io/github/followers/ABDULALI3468?label=ABDULALI&style=social)
 > - This is My **Linkedin**: [![Linkedin Badge](https://img.shields.io/badge/-ABDUL%20ALI-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/abdul-ali-5400bb216/)](https://www.linkedin.com/in/abdul-ali-5400bb216/)&nbsp;
 > - This is My **Twitter**: [![Twitter Badge](https://img.shields.io/badge/-@mrabdul_ali_-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/mrabdul_ali)](https://twitter.com/mrabdul_ali)&nbsp;
-
 
 <!-- Acknowledgments -->
 
