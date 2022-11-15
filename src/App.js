@@ -8,7 +8,8 @@ import './styles/index.css';
 
 const Coins = lazy(() => import('./components/Coins'));
 const Navbar = lazy(() => import('./components/Navbar'));
-const Coin = lazy(() => import('./components/Coin'));
+import Coin from './components/Coin';
+// const Coin = lazy(() => import('./components/Coin'));
 
 const App = () => (
   <Provider store={store}>

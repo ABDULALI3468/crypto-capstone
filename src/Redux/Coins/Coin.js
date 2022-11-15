@@ -6,7 +6,11 @@ export const coinFetchAction = (coin) => ({
 });
 
 export const fetchCoin = (url) => async (dispatch) => {
-  const response = await fetch(url);
+  const response = await fetch(url, {
+    headers: {
+      'Cache-Control': 'no-cache',
+    },
+  });
   const data = await response.json();
   dispatch(coinFetchAction(data));
 };

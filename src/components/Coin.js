@@ -21,9 +21,22 @@ const Coin = () => {
 
   const url = `https://api.coingecko.com/api/v3/coins/${params.coinId}`;
 
+  // {
+  //   coin.market_data.price_change_percentage_1y
+  //     ? (oneYearData = coin.market_data.price_change_percentage_1y)
+  //     : (oneYearData = '#');
+  // }
+
   useEffect(() => {
     dispatch(fetchCoin(url));
   }, [params.coinId]);
+
+  // let oneYearData;
+  // if (coin.market_data.price_change_percentage_1y) {
+  //   oneYearData = coin.market_data.price_change_percentage_1y;
+  // } else {
+  //   oneYearData = '#';
+  // }
 
   return (
     <>
@@ -127,15 +140,13 @@ const Coin = () => {
                       ) : null}
                     </td>
                     <td>
-                      {coin.market_data
-                        ?.price_change_percentage_24h_in_currency ? (
-                        <p>
-                          {coin.market_data.price_change_percentage_1y_in_currency.usd.toFixed(
-                            1,
-                          )}
-                          %
-                        </p>
-                      ) : null}
+                      {coin.market_data.price_change_percentage_1y ? (
+                        <p>{coin.market_data.price_change_percentage_1y}</p>
+                      ) : (
+                        <p>#</p>
+                      )}
+
+                      {/* <p>{oneYearData}</p> */}
                     </td>
                   </tr>
                 </tbody>
