@@ -3,8 +3,6 @@
 }
 
 body {
-  display: flex;
-  justify-content: center;
   overflow-x: hidden;
   background: linear-gradient(
     90deg,
@@ -18,7 +16,7 @@ html {
   font-size: 13px;
 }
 
-#root {
+#root, #portal-root {
   display: flex;
   flex-direction: column;
   justify-content: center;

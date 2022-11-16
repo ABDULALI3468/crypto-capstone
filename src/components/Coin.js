@@ -4,8 +4,10 @@
 /* eslint-disable react/jsx-indent */
 /* eslint-disable react/jsx-one-expression-per-line */
 /* eslint-disable indent */
+/* eslint-disable react/no-unescaped-entities */
 
 import DOMPurify from 'dompurify';
+import ReactDOM from 'react-dom';
 import { useDispatch, useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 import React, { useEffect } from 'react';
@@ -18,27 +20,13 @@ const Coin = () => {
   const params = useParams();
   const dispatch = useDispatch();
   const coin = useSelector((state) => state.coin);
-
   const url = `https://api.coingecko.com/api/v3/coins/${params.coinId}`;
-
-  // {
-  //   coin.market_data.price_change_percentage_1y
-  //     ? (oneYearData = coin.market_data.price_change_percentage_1y)
-  //     : (oneYearData = '#');
-  // }
 
   useEffect(() => {
     dispatch(fetchCoin(url));
   }, [params.coinId]);
 
-  // let oneYearData;
-  // if (coin.market_data.price_change_percentage_1y) {
-  //   oneYearData = coin.market_data.price_change_percentage_1y;
-  // } else {
-  //   oneYearData = '#';
-  // }
-
-  return (
+  return ReactDOM.createPortal(
     <>
       {coin.id === params.coinId ? (
         <div>
@@ -202,7 +190,8 @@ const Coin = () => {
       ) : (
         <Loader />
       )}
-    </>
+    </>,
+    document.getElementById('portal-root'),
   );
 };
 
